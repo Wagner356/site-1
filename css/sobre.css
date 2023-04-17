@@ -1,0 +1,38 @@
+*{
+    text-align: center;
+}
+body{
+    background: linear-gradient(blue, rgb(255, 0, 144));
+    margin-top: 20%;
+    margin-bottom: 25%;
+}
+.sobre{
+    background: rgb(233, 231, 234);
+    width: 300px;
+    border-radius: 20%  5% 20% 5%;
+    border:rgb(255, 0, 144) solid 2px;
+    position:relative;
+    bottom:60px;
+    left:40%
+    
+}
+.sobre h1{
+    font-size: 25px;
+    font-family:'Courier New', Courier, monospace,arial, helvetica;
+}
+.sobre p{
+    font-family: 'Courier New', Courier, monospace, helvetica, Georgia;
+  width: 250px;
+  position: relative;
+  left: 20px;
+}
+.sobre a{
+position:relative;
+top:1cm;
+  color:rgb(255, 255, 255);
+  text-decoration:overline;
+}
+.sobre a:hover{
+  color:rgb(247, 0, 255);
+  font-family: 'Courier New', Courier, monospace, helvetica, Georgia;
+}

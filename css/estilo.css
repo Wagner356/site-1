@@ -1,0 +1,718 @@
+body{
+  position:relative;
+  bottom: 299px;
+ text-align: center;
+ background: linear-gradient(red , black);
+ font-family: Arial, Helvetica, sans-serif;
+ margin-top: 300px;
+}
+
+/*roupas*/
+.roupas{
+    position: relative;
+    top: -20px;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    margin-right: 1200px;
+    margin-top: 30px;
+   }
+
+/*links*/
+ul { 
+    display: flex;
+    justify-content:space-around;
+    list-style: none ;
+    align-items: centro;
+    margin-left: 900px;
+    padding:-15px;
+   width: 30%;
+   font-size:small ;
+   margin-top:-7%;
+   margin-bottom: 10px
+}
+
+/*contato*/
+
+.contat hr{
+  position: relative;
+  left: 90%;
+  top:-55px
+
+}
+/*links2*/
+nav a:hover {
+  color:rgb(0, 0, 0);
+}
+
+nav a {
+    position: relative;
+    top: -20px;
+   color:aliceblue;
+   text-decoration: none;
+}
+nav hr {
+  position: relative;
+  top: -55px;
+  left: 70px;
+  background-color: antiquewhite;
+}
+
+/*imagem_gobb*/
+.gobb{
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.imagem{
+  position: relative;
+  left: 95px;
+  bottom: 70px;
+    border-radius: 50%;
+    border: rgb(4, 248, 204) solid 2px;
+    margin-top: 5cm;
+    margin-right: 10%;
+   margin-left: -7%;
+}
+.imge {
+    border-radius: 60% 60% 60% 60%;
+    margin-left: 10%;
+    border: white solid 2px;}
+    
+    /*img desconto*/
+.desconto{
+  position:relative;
+  top: 15cm;
+     width: 70%;
+     height: 400px;
+    }
+
+.top{
+  position: relative;
+  top:-800px;
+}
+
+.linhaD{
+  position:relative;
+  top:50px;
+}
+    /*imagens da moda*/
+
+.img1{
+  position:relative;
+  bottom: 20px;
+  top:80px;
+  border-radius: 10%;
+  border:rgb(240, 25, 25) solid 2px;
+  right: 10px;
+  left: 250px;
+}
+.Img2{
+  position:relative;
+  bottom:5px;
+  top: 75px;
+  right: 500px;
+  Border-radius: 10%;
+  border:rgb(240, 25, 25) solid 3px;
+}
+.img3{
+  position:relative;
+  right: 400px;
+  top:200px;
+  border-radius: 10%;
+  border: rgb(240, 25, 25) solid 2px;
+}
+.img4{
+  position:relative;
+  left:140px;
+  border-radius: 10%;
+  bottom: 70px;
+  border: rgb(240, 25, 25) solid 2px;
+}
+.img5{
+  position: relative;
+  right: 400px;
+  top: 30px;
+  border-radius: 10%;
+  border:  rgb(240, 25, 25) solid 2px;
+}
+.img6{
+  position:relative;
+  bottom: 250px;
+  text-align: center;
+  left: 140px;
+  border-radius: 10%;
+  border:  rgb(240, 25, 25) solid 2px;
+}
+.img7{
+  position:relative;
+  bottom:110px;
+  right: 400px;
+  border-radius: 10%;
+  border:  rgb(240, 25, 25) solid 2px;
+}
+.img8{
+  position:relative;
+  bottom: 400px;
+  left: 140px;
+  border-radius: 10%;
+  border:  rgb(240, 25, 25) solid 2px;
+  
+}
+  
+
+
+
+
+    /*footer*/
+
+  footer{
+    border-radius: 80%;
+    width: 500px;
+    margin-left: 30%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  footer hr{
+    background: white;
+    position:relative;
+    right: 500px;
+    width: 2000px;
+    height: 100px;
+  }
+
+  /*intagram*/
+ .insta{
+  position:relative;
+  bottom:700px;
+    border-radius: 50%;
+    width: 6%;
+ }
+ .instagram {
+     position:relative;
+     bottom: 700px;
+    text-decoration: none;
+    color:aliceblue;
+    cursor: pointer;
+ }
+ .instagram:hover{
+  width: 300%;
+  display: auto;
+  color:#b005b3;
+  font-family:Georgia, 'Times New Roman', Times, serif
+
+ }
+ .Arial{
+  font-family:'Courier New', Courier, monospace, helvetica, Georgia;}
+  
+  header hr{
+  
+   margin-left: 10%;
+   margin-right: 10%;
+   position:relative;
+   top:2cm;
+     }
+
+     /*cards*/
+.todos{
+  position:relative;
+  top:1892px;
+}
+
+     /*card1*/
+     .back{
+      font-size:small;
+      font-family:sans-serif;
+      background-color: bisque;
+      width: 21%;
+      height: 300px;
+      position: relative;
+      left:400px;
+      top:715px;
+      right: 100px;
+      border-radius: 10% 3% 10% 3%;
+     }
+     .frete{
+      position:relative;
+      top: 20px;
+     color:rgb(106, 104, 104);
+     font-family:cursive;
+     }
+     .preço{
+      position:relative;
+      top: 20px;
+      color: red;
+     }
+    .back h3{
+      position:relative;
+      top: 20px;
+    }
+    .back del{
+      position:relative;
+      top: 20px;
+
+      /*botão 1*/
+    }button {
+      --button_radius: 0.75em;
+      --button_color: #e8e8e8;
+      --button_outline_color: #000000;
+      font-size: 17px;
+      font-weight: bold;
+      border: none;
+      border-radius: var(--button_radius);
+      background: var(--button_outline_color);
+    }
+    
+    .button_top {
+      display: block;
+      box-sizing: border-box;
+      border: 2px solid var(--button_outline_color);
+      border-radius: var(--button_radius);
+      padding: 0.75em 1.5em;
+      background: var(--button_color);
+      color: var(--button_outline_color);
+      transform: translateY(-0.2em);
+      transition: transform 0.1s ease;
+    }
+    
+    button:hover .button_top {
+      transform: translateY(-0.33em);
+    }
+    
+    button:active .button_top {
+      transform: translateY(0);
+    }
+    /*card2*/
+    .card{
+      font-size:small;
+      font-family:sans-serif;
+      background-color: bisque;
+      width: 21%;
+      height: 300px;
+      position: relative;
+      left:930px;
+      top:400px;
+      border-radius: 10% 3% 10% 3%;
+    }
+    .fretee{
+      position:relative;
+      top: 20px;
+     color:rgb(106, 104, 104);
+     font-family:cursive;
+     }
+     .preçoo{
+      position:relative;
+      top: 20px;
+      color: red;
+     }
+     .card h3{
+      position:relative;
+      top: 20px;
+     }
+     .card del{
+      position:relative;
+      top: 20px;
+     }
+
+     /*botão2*/
+    button {
+      --button_radius: 0.75em;
+      --button_color: #e8e8e8;
+      --button_outline_color: #000000;
+      font-size: 17px;
+      font-weight: bold;
+      border: none;
+      border-radius: var(--button_radius);
+      background: var(--button_outline_color);
+    }
+    
+    .button_topp {
+      display: block;
+      box-sizing: border-box;
+      border: 2px solid var(--button_outline_color);
+      border-radius: var(--button_radius);
+      padding: 0.75em 1.5em;
+      background: var(--button_color);
+      color: var(--button_outline_color);
+      transform: translateY(-0.2em);
+      transition: transform 0.1s ease;
+    }
+    
+    button:hover .button_topp {
+      transform: translateY(-0.33em);
+    }
+    
+    button:active .button_topp {
+      transform: translateY(0);
+    }
+
+    /*card 3*/ 
+
+.cardd{
+  font-size:small;
+  font-family:sans-serif;
+  background-color: bisque;
+  width: 21%;
+  height: 300px;
+  position: relative;
+  left:400px;
+  top:520px;
+  border-radius: 10% 3% 10% 3%;
+}
+.freteee{
+  position:relative;
+  top: 20px;
+ color:rgb(106, 104, 104);
+ font-family:cursive;
+ }
+ .preçooo{
+  position:relative;
+  top: 20px;
+  color: black;
+ }
+.cardd h3{
+  position:relative;
+  top:20px;
+}
+/*botão 3*/
+
+button {
+  position:relative;
+  top:40px;
+  --button_radius: 0.75em;
+  --button_color: #e8e8e8;
+  --button_outline_color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+}
+
+.button_toppp {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+
+button:hover .button_toppp {
+  transform: translateY(-0.33em);
+}
+
+button:active .button_toppp {
+  transform: translateY(0);
+}
+  /*card 4*/
+.carddd{
+  font-size:small;
+  font-family:sans-serif;
+  background-color: bisque;
+  width: 21%;
+  height: 300px;
+  position: relative;
+  left:930px;
+  top:200px;
+  border-radius: 10% 3% 10% 3%;
+}
+.freteeee{
+  position:relative;
+  top: 20px;
+ color:rgb(106, 104, 104);
+ font-family:cursive;
+ }
+ .preçoooo{
+  position:relative;
+  top: 20px;
+  color: black;
+ }
+.carddd h3{
+  position:relative;
+  top:20px;
+}
+
+/*botão 3*/
+
+button {
+  position:relative;
+  top:40px;
+  --button_radius: 0.75em;
+  --button_color: #e8e8e8;
+  --button_outline_color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+}
+
+.button_topppp {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+
+button:hover .button_topppp {
+  transform: translateY(-0.33em);
+}
+
+button:active .button_topppp {
+  transform: translateY(0);
+}
+
+/*card 5*/
+
+.cardddd{
+  font-size:small;
+  font-family:sans-serif;
+  background-color: bisque;
+  width: 21%;
+  height: 300px;
+  position: relative;
+  left:400px;
+  top:260px;
+  border-radius: 10% 3% 10% 3%;
+}
+.freteeeee{
+  position:relative;
+  top: 20px;
+ color:rgb(106, 104, 104);
+ font-family:cursive;
+ }
+ .preçooooo{
+  position:relative;
+  top: 20px;
+  color: black;
+ }
+.cardddd h3{
+  position:relative;
+  top:20px;
+}
+/*botão 4*/
+
+button {
+  position:relative;
+  top:40px;
+  --button_radius: 0.75em;
+  --button_color: #e8e8e8;
+  --button_outline_color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+}
+
+.button_toppppp {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+
+button:hover .button_toppppp {
+  transform: translateY(-0.33em);
+}
+
+button:active .button_toppppp {
+  transform: translateY(0);
+}
+
+/*card 6*/
+
+.carddddd{
+  font-size:small;
+  font-family:sans-serif;
+  background-color: bisque;
+  width: 21%;
+  height: 300px;
+  position: relative;
+  left:930px;
+  bottom:55px;
+  border-radius: 10% 3% 10% 3%;
+}
+.freteeeeee{
+  position:relative;
+  top: 20px;
+ color:rgb(106, 104, 104);
+ font-family:cursive;
+ }
+ .preçoooooo{
+  position:relative;
+  top: 20px;
+  color: black;
+ }
+.carddddd h3{
+  position:relative;
+  top:20px;
+}
+
+/*botão 5*/
+
+button {
+  position:relative;
+  top:40px;
+  --button_radius: 0.75em;
+  --button_color: #e8e8e8;
+  --button_outline_color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+}
+
+.button_topppppp {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+
+button:hover .button_topppppp {
+  transform: translateY(-0.33em);
+}
+
+button:active .button_topppppp {
+  transform: translateY(0);
+}
+/*card 7*/
+.cardddddd{
+  font-size:small;
+  font-family:sans-serif;
+  background-color: bisque;
+  width: 21%;
+  height: 300px;
+  position: relative;
+  left:390px;
+ bottom:5px;
+ top:50px;
+  border-radius: 10% 3% 10% 3%;
+}
+.freteeeeeee{
+  position:relative;
+  top: 20px;
+ color:rgb(106, 104, 104);
+ font-family:cursive;
+ }
+ .preçooooooo{
+  position:relative;
+  top: 20px;
+  color: black;
+ }
+.cardddddd h3{
+  position:relative;
+  top:20px;
+}
+/*botão 6*/
+button {
+  position:relative;
+  top:40px;
+  --button_radius: 0.75em;
+  --button_color: #e8e8e8;
+  --button_outline_color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+}
+
+.button_toppppppp {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+
+button:hover .button_toppppppp {
+  transform: translateY(-0.33em);
+}
+
+button:active .button_toppppppp {
+  transform: translateY(0);
+}
+
+/*card 8*/
+
+.carddddddd{
+  font-size:small;
+  font-family:sans-serif;
+  background-color: bisque;
+  width: 21%;
+  height: 300px;
+  position: relative;
+  left:930px;
+  bottom: 268px;
+  border-radius: 10% 3% 10% 3%;
+}
+.freteeeeeeee{
+  position:relative;
+  top: 20px;
+ color:rgb(106, 104, 104);
+ font-family:cursive;
+ }
+ .preçoooooooo{
+  position:relative;
+  top: 20px;
+  color: black;
+ }
+.carddddddd h3{
+  position:relative;
+  top:20px;
+}
+
+/*botão 7*/
+button {
+  position:relative;
+  top:40px;
+  --button_radius: 0.75em;
+  --button_color: #e8e8e8;
+  --button_outline_color: #000000;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+}
+
+.button_topppppppp {
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1.5em;
+  background: var(--button_color);
+  color: var(--button_outline_color);
+  transform: translateY(-0.2em);
+  transition: transform 0.1s ease;
+}
+
+button:hover .button_topppppppp {
+  transform: translateY(-0.33em);
+}
+
+button:active .button_topppppppp {
+  transform: translateY(0);
+}

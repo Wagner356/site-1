@@ -1,0 +1,46 @@
+*{
+    text-align: center;
+    position:relative;
+    top:-0%;
+
+}
+
+body{
+        background: linear-gradient(rgb(16, 16, 159), rgb(219, 11, 163));
+        margin-bottom:0px;
+        margin-top:60%
+    
+}
+.comofoi{
+    background-color: rgb(255, 0, 153);
+    width: 21%;
+    height: 300px;
+    position:relative;
+    bottom: 15cm;
+    left: 40%;
+    border: rgb(210, 142, 231) solid 2px;
+    border-radius:10%
+}
+.comofoi h1{
+    font-family:'Courier New', Courier, monospace,arial, helvetica;
+    font-size:larger;
+
+}
+.comofoi p{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 250px;
+    position:relative;
+    left: 7%;
+    top:30px;
+}
+.voltar {
+    position:relative;
+    top:180px;
+    color:white;
+    text-decoration:overline;
+}
+.voltar:hover{
+    color:rgb(255, 0, 153);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}

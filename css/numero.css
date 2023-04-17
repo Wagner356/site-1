@@ -1,0 +1,52 @@
+body{
+    background: linear-gradient(rgb(16, 16, 159), rgb(219, 11, 163));
+     margin-top:50%
+}
+*{ 
+    text-align: center;
+   position:relative;
+
+}
+.contexto{
+   font-family:'Courier New', Courier, monospace;
+    font-size:larger;
+    background-color: bisque;
+      width: 21%;
+      height: 300px;
+     left: 39%;
+     bottom: 500px;
+     border-radius: 10%;
+     border:rgb(210, 142, 231) solid 2px;
+     box-sizing: border-box;
+}
+.contexto h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size:xx-large;
+    position:relative;
+    top: 40px;
+}
+.contexto p{
+    position:relative;
+    top: 70px
+}
+
+
+.contexto a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:smaller;
+     color:rgb(175, 199, 199);
+    position:relative;
+    top:70%; 
+    text-decoration: none;
+    animation-name: voltar;
+    animation-duration: 2s;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+}
+.contexto a:hover{
+    color:rgb(61, 10, 10);
+    font-size:larger;
+    font-display: 3s;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
